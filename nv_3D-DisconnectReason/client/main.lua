@@ -124,7 +124,7 @@ function CreateWait(source, name, reason, coords)
         xyz=coords,
         timeout=60000,
         text={
-            content='PLAYER ~b~[~y~'..source..'~b~] ~b~'..name..'~s~ HAS LEFT THE SERVER\n~o~REASON~s~: ~r~'..reason,
+            content= Config.Translation(source, name, reason),
             rgb = {255 , 255, 255},
             textOutline=true,
             scaleMultiplier=1,
