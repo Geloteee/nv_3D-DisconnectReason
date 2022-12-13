@@ -6,7 +6,7 @@ end
 
 Config.Reasons = {
     ['timed out'] = 'Timed Out',
-    ['Crash'] = 'Crashed',
+    ['crash'] = 'Crashed',
     ['Exiting'] = 'Quitted',
     ['Disconnected.'] = 'Disconnected',
 }
